@@ -6,7 +6,7 @@ import listaProdutos from "./listaProdutos";
 const ContainerProdutos = styled.div`
     display: flex;
     flex-wrap: wrap;
-    margin: 50px;
+    margin: 20px;
     align-items: center;
     justify-content: center;
 `
@@ -15,10 +15,10 @@ const BoxProduto = styled.div`
   display: flex;
   flex-direction: column;
   justify-content: center;
-  margin: 50px;
-  width: 300px;
-  height: 400px;
-  background-color: #2196f3;
+  margin: 10px;
+  width: 250px;
+  height: 300px;
+  background-color:rgba(30,144,255,0.75);
   align-items: center;
   border-radius: 20px;
   box-shadow: 2px 2px 12px darkgray;
@@ -31,8 +31,9 @@ const Produto = styled.p`
 `;
 
 const ImgProduto = styled.img`
-  width: 250px;
-  height: 250px;
+  width: 180px;
+  height: 150px;
+  border-radius: 20px;
 `;
 
 const TxtValor = styled.p`
@@ -50,7 +51,9 @@ const BtnComprar = styled.button`
     font-weight: bold;
     &:hover {
         cursor: pointer;
-        
+        color: #fff;
+        text-transform: uppercase;
+        background-color: rgba(0,255,0,0.8);
     }
 `
 
